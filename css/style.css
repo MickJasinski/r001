@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.jumbotron {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-position: right;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 2; }
+  .jumbotron .row {
+    margin-top: 18vh; }
+    .jumbotron .row .logo {
+      margin-bottom: 6vh; }
+    .jumbotron .row h1 {
+      letter-spacing: 8px;
+      margin-bottom: 6vh; }
+    .jumbotron .row p {
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 2px; }
+    .jumbotron .row #arrow {
+      margin-top: 8vh;
+      cursor: pointer; }
+
+@media (max-width: 767px) {
+  .jumbotron .row {
+    margin-top: 16vh;
+    padding: 30px; }
+    .jumbotron .row .logo {
+      margin-bottom: 3vh; }
+    .jumbotron .row h1 {
+      font-size: 20px;
+      margin-bottom: 8vh; }
+    .jumbotron .row p {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 0; }
+    .jumbotron .row #arrow {
+      margin-top: 3vh; } }
+main {
+  height: 100vh;
+  background-color: #fff;
+  margin-top: 100vh;
+  position: relative;
+  z-index: 3; }
+
+/*# sourceMappingURL=style.css.map */
